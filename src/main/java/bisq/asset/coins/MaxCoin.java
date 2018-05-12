@@ -17,12 +17,20 @@
 
 package bisq.asset.coins;
 
+<<<<<<< HEAD
 import bisq.asset.RegexAddressValidator;
+=======
+import bisq.asset.Base58BitcoinAddressValidator;
+>>>>>>> cffa1cd9cd79294585134c8c83efca0d837ee8ca
 import bisq.asset.Coin;
 
 public class MaxCoin extends Coin {
 
     public MaxCoin() {
+<<<<<<< HEAD
         super("MaxCoin", "MAX", new RegexAddressValidator("^m[1-9A-Za-z]{26,33}$"));
+=======
+        super("MaxCoin", "MAX", new Base58BitcoinAddressValidator());
+>>>>>>> cffa1cd9cd79294585134c8c83efca0d837ee8ca
     }
 }

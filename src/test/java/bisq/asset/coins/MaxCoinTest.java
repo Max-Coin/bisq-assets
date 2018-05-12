@@ -37,7 +37,12 @@ public class MaxCoinTest extends AbstractAssetTest {
     @Test
     public void testInvalidAddresses() {
         assertInvalidAddress("mcnZY6GyoMgkYAJWLLY95ehL9LQ4tKq4h91");
+<<<<<<< HEAD
         assertInvalidAddress("mcnZY6GyoMgkYAJWLLY95ehL");
         assertInvalidAddress("1cnZY6GyoMgkYAJWLLY95ehL9LQ4tKq4h9");
+=======
+        assertInvalidAddress("mcnZY6GyoMgkYAJWLLY95ehL9LQ4tKq4h9#");
+        assertInvalidAddress("2cnZY6GyoMgkYAJWLLY95ehL9LQ4tKq4h9");
+>>>>>>> cffa1cd9cd79294585134c8c83efca0d837ee8ca
     }
 }
